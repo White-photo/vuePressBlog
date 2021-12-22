@@ -16,8 +16,5 @@
     "vuepress-theme-reco": "^1.6.10"
   },
   "dependencies": {
-    "chalk": "^2.0.0",
-    "esm": "^3.0.0",
-    "vuepress": "^1.0.0"
   }
 }
