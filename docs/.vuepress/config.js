@@ -4,6 +4,13 @@ module.exports = {
     // port: '22335',  // 生成网页端口（本地调试使用）
     title: "醉后不知天在水",  // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
     description: '现居住于猎户臂上的一个碳基生命',  // meta 中的描述文字，用于SEO
+    base: '/glassyskyblog/',
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
+    dest: 'public',
     head: [
         ['link', { rel: 'icon', href: '/favicon.svg' }],  //浏览器的标签栏的网页图标,基地址/docs/.vuepress/public
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }], //在移动端，搜索框在获得焦点时会放大
@@ -77,6 +84,24 @@ module.exports = {
         ],
         ['vuepress-plugin-smooth-scroll'],  // 平滑滚动
         ['@vuepress/nprogress'],  // 加载进度条
-        ['reading-progress']  // 阅读进度条
+        [
+            'cursor-effects',
+            {
+                size: 2, // size of the particle, default: 2
+                shape: ['star' | 'circle'], // shape of the particle, default: 'star'
+                zIndex: 999999999, // z-index property of the canvas, default: 999999999
+            },
+        ],
+        [
+            'dynamic-title',
+            {
+                showIcon: '/favicon.ico',
+                showText: '(/≧▽≦/)咦！又好了！',
+                hideIcon: '/failure.ico',
+                hideText: '(●—●)喔哟，崩溃啦！',
+                recoverTime: 2000,
+            },
+        ],
+        ['go-top'],
     ]
 }
