@@ -144,7 +144,7 @@ module.exports = {
             },
         ],
         //博客自定义LOGO
-        logo: '/logo.png',
+        logo: '../logo.jpg',
         // 搜索设置
         search: true,
         searchMaxSuggestions: 10,
