@@ -4,7 +4,6 @@ module.exports = {
     // port: '22335',  // 生成网页端口（本地调试使用）
     title: "醉后不知天在水",  // 显示在左上角的网页名称以及首页在浏览器标签显示的title名称
     description: '现居住于猎户臂上的一个碳基生命',  // meta 中的描述文字，用于SEO
-    base: '/glassyskyblog/',
     locales: {
         '/': {
             lang: 'zh-CN'
@@ -31,20 +30,16 @@ module.exports = {
         // nav: [  //导航栏设置
         //     { text: '主页', link: '/', icon: 'reco-home' },
         //     { text: '时间线', link: '/timeline/', icon: 'reco-date' },
-        //     { text: '联系',
-        //         icon: 'reco-message',
-        //         items: [
+        //     { text: '联系', icon: 'reco-message', items: [
         //             { text: 'GitHub', link: 'https://github.com/Tsanfer', icon: 'reco-github' },
         //             { text: 'CSDN', link: 'https://blog.csdn.net/qq_27961843/', icon: 'reco-csdn' },
         //             { text: 'BiliBili', link: 'https://space.bilibili.com/12167681', icon: 'reco-bilibili' },
-        //             { text: 'QQ', link: 'tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1124851454', icon: 'reco-qq' },
         //             { text: 'twitter', link: 'https://twitter.com/a1124851454', icon: 'reco-twitter' },
         //             { text: 'Gmail', link: 'mailto:a1124851454@gmail.com', icon: 'reco-mail' },
-        //         ]
-        //     }
+        //         ],
+        //     },
         // ],
-        sidebar: 'auto',  //在所有页面中启用自动生成侧栏
-        record: '蜀ICP备20005033号-1',
+        subSidebar: 'auto', // 在所有页面中启用自动生成侧栏
         startYear: '2020', // 项目开始时间，只填写年份
         lastUpdated: '最后更新时间', // string | boolean
         author: '夭夭',
