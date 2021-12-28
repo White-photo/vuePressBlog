@@ -26,5 +26,15 @@
     "@vuepress-reco/theme-cli": "^1.0.7",
     "vuepress": "^1.9.5",
     "vuepress-theme-reco": "^1.6.10"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    "@vuepress/plugin-medium-zoom": "^1.9.5",
+    "vuepress-plugin-cursor-effects": "^1.0.2",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-flowchart": "^1.5.0",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
