@@ -1,32 +1,16 @@
 {
-  "name": "vuepressblog",
+  "name": "",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "author": "reco_luan",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/White-photo/vuePressBlog.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/White-photo/vuePressBlog/issues"
-  },
-  "homepage": "https://github.com/White-photo/vuePressBlog#readme",
   "devDependencies": {
-    "@vuepress-reco/theme-cli": "^1.0.7",
-    "vuepress": "^1.9.5",
-    "vuepress-theme-reco": "^1.6.10"
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
   },
+  "description": "",
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
