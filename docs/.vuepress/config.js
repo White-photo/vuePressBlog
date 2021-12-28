@@ -27,18 +27,18 @@ module.exports = {
                 text: '标签' // 默认 “标签”
             },
         },
-        // nav: [  //导航栏设置
-        //     { text: '主页', link: '/', icon: 'reco-home' },
-        //     { text: '时间线', link: '/timeline/', icon: 'reco-date' },
-        //     { text: '联系', icon: 'reco-message', items: [
-        //             { text: 'GitHub', link: 'https://github.com/Tsanfer', icon: 'reco-github' },
-        //             { text: 'CSDN', link: 'https://blog.csdn.net/qq_27961843/', icon: 'reco-csdn' },
-        //             { text: 'BiliBili', link: 'https://space.bilibili.com/12167681', icon: 'reco-bilibili' },
-        //             { text: 'twitter', link: 'https://twitter.com/a1124851454', icon: 'reco-twitter' },
-        //             { text: 'Gmail', link: 'mailto:a1124851454@gmail.com', icon: 'reco-mail' },
-        //         ],
-        //     },
-        // ],
+        nav: [  //导航栏设置
+            { text: '主页', link: '/', icon: 'reco-home' },
+            { text: '时间线', link: '/timeline/', icon: 'reco-date' },
+            { text: '联系', icon: 'reco-message', items: [
+                    { text: 'GitHub', link: 'https://github.com/Tsanfer', icon: 'reco-github' },
+                    { text: 'CSDN', link: 'https://blog.csdn.net/qq_27961843/', icon: 'reco-csdn' },
+                    { text: 'BiliBili', link: 'https://space.bilibili.com/12167681', icon: 'reco-bilibili' },
+                    { text: 'twitter', link: 'https://twitter.com/a1124851454', icon: 'reco-twitter' },
+                    { text: 'Gmail', link: 'mailto:a1124851454@gmail.com', icon: 'reco-mail' },
+                ],
+            },
+        ],
         subSidebar: 'auto', // 在所有页面中启用自动生成侧栏
         startYear: '2020', // 项目开始时间，只填写年份
         lastUpdated: '最后更新时间', // string | boolean
