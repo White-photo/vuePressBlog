@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 竹杖芒鞋轻胜马
-tagline: 谁怕？一蓑烟雨任平生.
+heroText: A simple and beautiful vuepress blog theme.
+tagline: 
 heroImageStyle: {
   width: '100%',
   display: block,
@@ -11,7 +11,7 @@ heroImageStyle: {
 bgImageStyle: {
   height: '100vh'
 }
-bgImage: /homePage.png
+bgImage: /preview.jpg
 isShowTitleInHome: false
 # actionText: Guide
 # actionLink: /views/other/guide
