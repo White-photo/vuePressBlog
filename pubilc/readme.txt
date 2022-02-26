@@ -1,2 +1,0 @@
-# vuePressBlog
-ziyong blog
